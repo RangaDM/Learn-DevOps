@@ -1,0 +1,18 @@
+# First Ansible Playbook
+
+This repository contains my first Ansible playbook, `first_playbook.yml`. This playbook is very basic and serves as my first step into learning and using Ansible.
+
+## Playbook Description
+
+The `first_playbook.yml` playbook performs the following tasks on all hosts:
+
+1. Installs Nginx: This task uses the `apt` module to ensure that Nginx is installed.
+
+2. Starts Nginx: This task uses the `service` module to ensure that the Nginx service is started.
+
+## Usage
+
+To run this playbook, use the following command:
+
+```bash
+ansible-playbook first_playbook.yml
